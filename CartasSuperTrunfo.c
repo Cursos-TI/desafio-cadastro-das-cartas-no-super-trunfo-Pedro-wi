@@ -1,22 +1,45 @@
 #include <stdio.h>
 
-// Desafio Super Trunfo - Países
-// Tema 1 - Cadastro das Cartas
-// Este código inicial serve como base para o desenvolvimento do sistema de cadastro de cartas de cidades.
-// Siga os comentários para implementar cada parte do desafio.
-//Teste larissa
-
 int main() {
-    // Sugestão: Defina variáveis separadas para cada atributo da cidade.
-    // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
-    
-    // Cadastro das Cartas:
-    // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
-    // Solicite ao usuário que insira as informações de cada cidade, como o código, nome, população, área, etc.
-    
-    // Exibição dos Dados das Cartas:
-    // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
-    // Exiba os valores inseridos para cada atributo da cidade, um por linha.
+    printf("Desafio de cartas super trunfo\n");
 
-    return 0;
-}
+    char EstadoBahia;
+    char codia01[50];
+    char salvador[50];
+    int pop15200000;
+    float Área567295;
+    float pib4026bilhoes;
+    int pontost50;
+
+    printf("Digite a letra do estado: \n");
+    scanf("%c," &EstadoBahia);
+    
+    printf("Digite o codigo da letra: \n");
+    scanf("%s", &codia01);
+
+    printf("Digite o nome da cidade: \n");
+    scanf("%s", &salvador);
+
+    printf("Digite a quantidade da população: \n");
+    scanf("%d," &pop15200000);
+
+    printf("Digite a area em km²: \n");
+    scanf("%f", &Área567295);
+    
+    printf("Digite o PIB da cidade: \n");
+    scanf("%f", &pib4026bilhoes); // Leitura do PIB
+
+    printf("Digite os pontos dos estados: \n");
+    scanf("%d", &pontost50); // Leitura dos pontos 
+
+    // Exibindo os dados
+    printf("Informações da cidade: \n");
+    printf("Estado: %c\n", EstadoBahia);
+    printf("Codigo da carta: %s\n", codia01);
+    printf("Nome da cidade: %s\n", salvador);
+    printf("população: \n", pop15200000);
+    printf("area: %f km²\n", Area567295km²);
+    printf("pib: %f\n", pib4026bilhoes);
+    printf("Pontos do Estado: %d\n", pontost50);
+
+    return 0; }
