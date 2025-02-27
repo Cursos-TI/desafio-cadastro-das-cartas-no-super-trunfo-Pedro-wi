@@ -7,7 +7,7 @@ int main() {
     char codia01[50];
     char salvador[50];
     int pop15200000;
-    float Área567295;
+    float area567295;
     float pib4026bilhoes;
     int pontost50;
 
@@ -15,16 +15,16 @@ int main() {
     scanf("%c," &EstadoBahia);
     
     printf("Digite o codigo da letra: \n");
-    scanf("%s", &codia01);
+    scanf("%s", codia01);
 
     printf("Digite o nome da cidade: \n");
-    scanf("%s", &salvador);
+    scanf("%s", salvador);
 
     printf("Digite a quantidade da população: \n");
-    scanf("%d," &pop15200000);
+    scanf("%d," pop15200000);
 
     printf("Digite a area em km²: \n");
-    scanf("%f", &Área567295);
+    scanf("%f", &area567295);
     
     printf("Digite o PIB da cidade: \n");
     scanf("%f", &pib4026bilhoes); // Leitura do PIB
@@ -37,8 +37,8 @@ int main() {
     printf("Estado: %c\n", EstadoBahia);
     printf("Codigo da carta: %s\n", codia01);
     printf("Nome da cidade: %s\n", salvador);
-    printf("população: \n", pop15200000);
-    printf("area: %f km²\n", Area567295km²);
+    printf("população: %d\n", pop15200000);
+    printf("Area: %f\n", area567295);
     printf("pib: %f\n", pib4026bilhoes);
     printf("Pontos do Estado: %d\n", pontost50);
 
